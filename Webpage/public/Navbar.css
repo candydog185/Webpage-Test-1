@@ -1,40 +1,39 @@
 /* Nav bar */
 .navbar {
-    background: linear-gradient(to right, #FFA500, #40E0D0); /* Orange to turquoise gradient */
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+  background: linear-gradient(to right, #FFA500, #40E0D0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 /* Nav links */
 .navbar a {
-    float: left;
-    display: block;
-    color: white; /* Text */
-    text-align: center;
-    padding: 5px 10px;
-    text-decoration: none;
-    font-size: 15px;
+  float: left;
+  display: block;
+  color: white;
+  /* Text */
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 /* Hover */
 .navbar a:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 /* Spacing between links */
 .navbar a:not(:last-child) {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 /* Current page */
 .active {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000); /* White fade */
-    color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+  /* White fade */
+  color: white;
 }

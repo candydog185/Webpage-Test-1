@@ -1,0 +1,27 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.comingsoon {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.comingsoon img {
+    width: 100%;
+    height: auto;
+}
+
+.comingsoon p {
+    position: absolute;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
