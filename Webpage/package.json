@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "http": "^0.0.1-security",
+    "nodemailer": "^6.9.9",
+    "upper-case": "^3.0.0"
+  }
+}
